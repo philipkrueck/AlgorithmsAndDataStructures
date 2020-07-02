@@ -5,8 +5,8 @@
 //  Created by Philip Krück on 02.07.20.
 //
 
-
-/// binary search expects a sorted list
+/// running time of O(log(n))
+/// binary search expects a sorted list\n
 public func binarySearch<T: Comparable>(list: Array<T>, element: T)-> Int? {
     search(list: list, element: element, startIndex: 0, endIndex: list.count)
 }
